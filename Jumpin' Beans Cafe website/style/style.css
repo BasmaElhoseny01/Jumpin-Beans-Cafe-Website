@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+/*Header styling*/
+.header{
+    width:97.5vw;
+    height:9vh;
+
+    background-color:seashell;
+
+    /*Flex box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul{
+    list-style: none;
+    width:20%;
+
+    font-size: 15pt;
+    text-decoration: none;
+    /* border: dashed 3px blue; */
+
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ 
+/*Description*/
+.description{
+    width:97.5vw;
+    height: 200px;
+
+    margin-top: 10px;
+    padding-top:20px;
+
+    background-image:url("../images/Mission.jpg");
+    background-size: 100%;
+    background-position: center center;    
+    background-repeat:no-repeat ;
+
+    text-align: center;
+}
+
+.description h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description p{
+    width: 50%;
+
+    margin: auto;
+    /* padding-top: 4px; */
+    
+    font-size: 12pt;
+    font-family:monospace;
+    font-weight: lighter;
+}
+
+/*Products*/
+.container
+{
+    width: 85%;
+    height: fit-content;
+
+    margin: auto;
+    padding: 20px;
+
+    border: 2px black solid;
+    border-radius: 20px;
+
+    /*shadow*/
+    -moz-box-shadow: 10px 10px 16px #000000;
+    -webkit-box-shadow: 10px 10px 16px #000000;
+    box-shadow: 10px 10px 16px gray;
+
+    /*Flex box*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+    background-color:rgb(255, 245, 237,0.8) ;
+}
+
+.inner{
+    width: 40%;
+
+    margin: 10px;
+
+    /* background-color: aquamarine; */
+
+    /*Flex box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*col==> bec main axis here is col*/  
+}
+
+.inner img
+{
+    margin: 3px;
+    width: auto;
+    height:200px; 
+
+}
+
+.Info{
+    margin-top: 2px;
+    width: 75%;
+
+    /* font-family: url('../fonts/Hind/Hind-Medium.ttf'); */
+    font-family: 'Hind', sans-serif;
+
+    border: 2px solid slategrey;
+    text-align: center;
+
+}
+
+.quantity{
+    width: 25%;
+
+    text-align: center;
+}
+
+.addtochart{
+    margin: 5px;
+
+    text-align: center;
+
+    border: black solid;
+    border-radius: 4px;
+
+}
+
+/*quote*/
+.quote{
+    height: fit-content;
+    width: 97%;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color:rgba(96, 67, 63, 0.7);
+
+    /*Flex Box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.quote .quotewords{  
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 16pt;
+
+        text-align: center;
+
+        /*Flex Box*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.quote .quotewords p{  
+
+    margin: 10px;
+}
+
+
+.quote img{  
+    width:40%;
+    height: auto;   
+
+    margin: 20px;
+    
+    border: solid 4px white;
+    border-radius: 10px;
+}
+
+
+
+/*Footer*/
+.footer{
+width:100%;
+margin-bottom: 0px;
+text-align: center;
+
+background-color:seashell;
+}
+
+.social{
+    
+    /*FlexBox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social img{
+    width:25px;
+    height: auto;
+
+    margin: 5px;
+
+}
+
+*{
+    margin: 0;
+}
